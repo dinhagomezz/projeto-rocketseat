@@ -35,13 +35,14 @@ body * {
 }
 
 #container {
-  width: 360px;
+  width: 100%;
   /* podia ser usado
   margin-top: 56ps;
   margin-left:auto;
   margin-right:auto
   margin-bottom:auto */
   /* ou a forma abreviada */
+  max-width: 588px;
   margin: 56px auto 0;
   /*  altura largura  inferior */
   padding: 0 24px;
